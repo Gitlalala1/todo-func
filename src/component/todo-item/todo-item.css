@@ -1,0 +1,8 @@
+span.important{
+    font-weight: bold;
+    
+}
+span.done{
+    text-decoration: line-through;
+    font-weight: normal;
+}

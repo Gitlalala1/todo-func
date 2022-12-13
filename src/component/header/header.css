@@ -1,0 +1,16 @@
+.header-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header-app *{
+    margin: 0;
+    padding: 0;
+}
+.header-app div{
+    margin-left: 15px;
+}
+.header-app div span:not(:last-child){
+    margin-right: 5px;
+}

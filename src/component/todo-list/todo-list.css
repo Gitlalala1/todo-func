@@ -1,0 +1,36 @@
+.todo__ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.todo__ul li{
+    border:1px solid blue;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.todo__ul li:not(:last-child){
+    margin-bottom: 15px;
+}
+.todo__ul li span{
+    margin-right: 10px;
+    cursor:pointer;
+    display: block;
+    font-size: 21px;
+}
+.todo__ul li button:not(:last-child){
+    margin-right: 5px;
+}
+.todo__ul li button{
+    background-color: transparent;
+    border-radius: 25px;
+    border:1px solid red;
+    padding: 5px;
+    cursor:pointer;
+}
+.todo__ul li button:hover{
+transform: scale(1.1);
+transition: .2s;
+}
